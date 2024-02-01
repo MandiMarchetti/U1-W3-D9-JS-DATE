@@ -29,7 +29,8 @@ const createTabellone = number => {
 
     tombola.appendChild(numberCellDiv);
     
+    console.log(generalNumbers);
     };
 
-    console.log(generalNumbers);
 }
+createTabellone(76);
