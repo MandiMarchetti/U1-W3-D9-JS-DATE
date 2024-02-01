@@ -30,7 +30,16 @@ const createTabellone = number => {
     tombola.appendChild(numberCellDiv);
     
     console.log(generalNumbers);
+    // until here, it was to fulfill the div 'tombola'
+   
+    // generate the event 'click' to get a random number inside the 'tombola'
+    numberCellDiv.onclick = event => {
+        console.log(event.currentTarget, i);
+    };
+
+
     };
 
 }
+
 createTabellone(76);
